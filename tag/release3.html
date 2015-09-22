@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en"
+>
+<head>
+    <title>release - wallabag</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link href="https://www.wallabag.org/images/favicon.ico" rel="icon">
+
+
+    <meta name="author" content="Nicolas Lœuillet" />
+    <meta name="keywords" content="release" />
+
+    <!-- Open Graph tags -->
+        <meta property="og:site_name" content="wallabag" />
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="wallabag"/>
+        <meta property="og:url" content="https://www.wallabag.org"/>
+        <meta property="og:description" content="wallabag"/>
+
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://www.wallabag.org/theme/css/bootstrap.simplex.min.css" type="text/css"/>
+    <link href="https://www.wallabag.org/theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="https://www.wallabag.org/theme/css/pygments/native.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.wallabag.org/theme/css/style.css" type="text/css"/>
+        <link href="https://www.wallabag.org/extra/css/custom.css" rel="stylesheet">
+
+        <link href="https://www.wallabag.org/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
+              title="wallabag ATOM Feed"/>
+
+</head>
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="https://www.wallabag.org/" class="navbar-brand">
+            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="/"><i class="fa fa-home"></i> Homepage</a></li>
+                         <li><a href="https://www.wallabag.org/pages/features.html">
+                             Features
+                          </a></li>
+                         <li><a href="https://www.wallabag.org/pages/download-wallabag.html">
+                             Downloads
+                          </a></li>
+                         <li><a href="https://www.wallabag.org/pages/roadmap.html">
+                             Roadmap
+                          </a></li>
+                         <li><a href="https://www.wallabag.org/pages/donations.html">
+                             Donate
+                          </a></li>
+                         <li><a href="https://www.wallabag.org/pages/development.html">
+                             Development
+                          </a></li>
+                         <li><a href="https://www.wallabag.org/pages/support.html">
+                             Support
+                          </a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="https://www.wallabag.org/archives.html"><i class="fa fa-th-list"></i><span class="icon-label">Archives</span></a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+<!-- Banner -->
+<style>
+	#banner{
+	    background-image:url("https://www.wallabag.org/images/books.jpg");
+	}
+</style>
+
+<div id="banner">
+	<div class="container">
+		<div class="copy">
+			<h1><img src="https://www.wallabag.org/images/white_logo.png" alt="wallabag logo" />wallabag</h1>
+				<p class="intro">Click, save, organize, read it when you want</p>
+		</div>
+	</div>
+</div><!-- End Banner -->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9">
+
+        <div class="alert alert-dismissible alert-success">
+          14/09/2015: We are very proud to announce the release of wallabag 2.0.0-alpha <a href="/blog/2015/09/14/wallabag-v2-alpha-finally" class="alert-link">Please read our blog post</a>.
+        </div>
+
+            <article>
+                <h2><a href="https://www.wallabag.org/blog/2013/12/23/poche-1-3-0">Announce: poche 1.3.0</a></h2>
+                <div class="summary"><p>I'm so happy to announce the latest release of poche. There are so many changes with this version!</p>
+<h2>New features</h2>
+<h3>RSS</h3>
+<p>You can now read your poched links with your RSS agregator, e-reader, etc. In your config screen, you now have three RSS feeds for unread, favorites and archived links.</p>
+<h3>Tags</h3>
+<p>When you're reading a link, you can now add tags to it. It's now so easy to tidy your poche. And if you enabled RSS, you can also have a feed per tag..</p>
+<h3>So many new things</h3>
+<ul>
+<li>
+<p>You can poche youtube videos</p>
+</li>
+<li>
+<p>Persian language has been added</p>
+</li>
+<li>
+<p>You can download your poche database (only if you use SQLite storage).</p>
+</li>
+<li>
+<p>When you check the checkbox "Stay signed in", you stay signed in!</p>
+</li>
+</ul>
+<h2>Download poche 1.3</h2>
+<p>Go to <a href="https://www.wallabag.org/pages/download-wallabag.html">downloads page</a>!</p>
+<h2>Update poche</h2>
+<p>Download poche, extract the ZIP, upload all the files and empty the cache folder.</p>
+<h2>poche hosting users</h2>
+<p>Your poche will be updated in few days, don't panic ;-) The new feature "Download your poche database" will be useful if you want to leave <a href="https://www.framabag.org">poche hosting</a> and create your own poche.</p>
+                    <a class="btn btn-default btn-xs" href="https://www.wallabag.org/blog/2013/12/23/poche-1-3-0">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://www.wallabag.org/blog/2013/11/25/poche-1-2-0">poche 1.2.0</a></h2>
+                <div class="summary"><p>The new release of poche is here. You can download it at the <a href="http://wallabag.org">Downloads</a> page.</p>
+<p>Changelog</p>
+<ul>
+<li>
+<p>fixed a bug while deleting an article</p>
+</li>
+<li>
+<p>added a new parameter to close the popup created by thirds extensions</p>
+</li>
+<li>
+<p>added russian language</p>
+</li>
+<li>
+<p>added italian language</p>
+</li>
+<li>
+<p>added new pictures for dark template</p>
+</li>
+<li>
+<p>removed toolbar when printing article</p>
+</li>
+</ul>
+<p>To install poche, please <a href="http://doc.wallabag.org">read the instructions</a>.</p>
+<p>To upgrade your poche, just overwrite all the files and empty the cache.</p>
+                    <a class="btn btn-default btn-xs" href="https://www.wallabag.org/blog/2013/11/25/poche-1-2-0">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://www.wallabag.org/blog/2013/10/25/poche-1-1-0">poche 1.1.0</a></h2>
+                <div class="summary"><p>The 1.1.0 is available.</p>
+<p>Changelog:</p>
+<ul>
+<li>
+<p>fix CSS bugs</p>
+</li>
+<li>
+<p>add support for custom ssl port</p>
+</li>
+<li>
+<p>add support for http_auth</p>
+</li>
+<li>
+<p>installations steps are easier</p>
+</li>
+<li>
+<p>updating password was buggy</p>
+</li>
+<li>
+<p>you can change your poche language in the config screen</p>
+</li>
+<li>
+<p>add czech language</p>
+</li>
+<li>
+<p>update german language</p>
+</li>
+</ul>
+<p>You can download it here: <a href="http://www.wallabag.org/">http://www.wallabag.org/</a></p>
+<p>To update your version, overwrite all the files and edit /inc/poche/config.inc.php. Add this line before <code>define ('MODE_DEMO', FALSE);</code>  :</p>
+<div class="highlight"><pre><span class="nt">&lt;code&gt;</span>// Change this if not using the standart port for SSL - i.e you server is behind sslh
+define (&#39;SSL_PORT&#39;, 443);  
+<span class="nt">&lt;/code&gt;</span>
+</pre></div>
+
+
+<p>And remove this line <code>define ('POCHE_VERSION', '1.0.0');</code></p>
+                    <a class="btn btn-default btn-xs" href="https://www.wallabag.org/blog/2013/10/25/poche-1-1-0">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://www.wallabag.org/blog/2013/10/03/117">poche 1.0.0</a></h2>
+                <div class="summary"><p>Six months. Between the first commit (April 3, 2013) and the 1.0.0 (October 3, 2013), six months.</p>
+<p>The 1.0.0 is now released.</p>
+<p>A new website is here. More complete, more convenient.</p>
+<p>To download poche and third-party applications, <a href="http://www.wallabag.org/pages/download-wallabag.html">it’s here</a>.</p>
+<p>Thank you so much to all of you: <a href="https://github.com/wallabag/wallabag/graphs/contributors">contributors</a>, <a href="https://github.com/wallabag/wallabag/issues">bugs finders</a>, <a href="https://www.framabag.org/">framabag</a> and “self-hosted” users, <a href="http://twitter.com/wallabagapp">followers</a>, etc.</p>
+<p>And a huge thanks to my wife. Without her, this project would not be where it is today.</p>
+<p>Have fun with poche.</p>
+                    <a class="btn btn-default btn-xs" href="https://www.wallabag.org/blog/2013/10/03/117">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://www.wallabag.org/blog/2013/09/20/poche-1-0-beta5">poche 1.0 beta5</a></h2>
+                <div class="summary"><p>Here is the changelog.</p>
+<p>adds:</p>
+<ul>
+<li>
+<p>you can easily change your theme in your config screen.</p>
+</li>
+<li>
+<p>you can poche a link without bookmarklet and extensions: there is a simple field on config view.</p>
+</li>
+<li>
+<p>scroll position is now saved. When you return on an article, the last scroll position is retained.</p>
+</li>
+<li>
+<p>add warning message when there is no entry in current view</p>
+</li>
+<li>
+<p>add number of results next to pager</p>
+</li>
+<li>
+<p>flattr icon on flattrable articles.</p>
+</li>
+</ul>
+<p>bugs:</p>
+<ul>
+<li>
+<p>wrong title on favorites and archives pages</p>
+</li>
+<li>
+<p>content was empty when enabling downloading pictures</p>
+</li>
+<li>
+<p>titles with colon bad parsed</p>
+</li>
+</ul>
+<p>changes:</p>
+<ul>
+<li>
+<p>remove on login and home views useless link “back to home”</p>
+</li>
+<li>
+<p>display sort links only if there is at least 2 articles in current list</p>
+</li>
+<li>
+<p>locale files updated</p>
+</li>
+</ul>
+<p>To install or upgrade poche, <a href="http://doc.wallabag.org">read the doc</a>.</p>
+<p>Thank you so much EliasZ, NumEricR and TcitWorld.</p>
+                    <a class="btn btn-default btn-xs" href="https://www.wallabag.org/blog/2013/09/20/poche-1-0-beta5">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="https://www.wallabag.org/blog/2013/08/27/poche-1-0-beta-4">poche 1.0 beta 4</a></h2>
+                <div class="summary"><p>Fourth beta is available, here is the changelog:</p>
+<ul>
+<li>
+<p>enhancement: updating and installing poche are more easier</p>
+</li>
+<li>
+<p>enhancement: poche now uses Full Text RSS to fetch content</p>
+</li>
+<li>
+<p>enhancement: css and twig files are more clean, thanks to NumEricR and nicofrand</p>
+</li>
+<li>
+<p>enhancement: updated german translation, thanks to HLFH</p>
+</li>
+<li>
+<p>enhancement: add db/, cache/ and assets/ directories in versioning</p>
+</li>
+<li>
+<p>enhancement: display messages when error with import, thanks to EliasZ</p>
+</li>
+<li>
+<p>enhancement: poche compatibility test file</p>
+</li>
+<li>
+<p>enhancement: #112: link with shaarli</p>
+</li>
+<li>
+<p>enhancement: #162: links to firefox / chrome / android apps in config screen</p>
+</li>
+<li>
+<p>bug: encode url to share with twitter / email / shaarli</p>
+</li>
+<li>
+<p>bug: Add IPv4 url support (and others beginning by a digit)</p>
+</li>
+<li>
+<p>bug: title page in article view was wrong</p>
+</li>
+<li>
+<p>bug: #148: use of undefined constant POCHE_VERSION</p>
+</li>
+<li>
+<p>bug: #149: can’t poche theguardian.com</p>
+</li>
+<li>
+<p>bug: #150: default title for untitled articles</p>
+</li>
+<li>
+<p>bug: #151: HTML entities in titles are encoded twice</p>
+</li>
+<li>
+<p>bug: #169: entries height with short description</p>
+</li>
+<li>
+<p>bug: #175: IP addresses do not appear in “view original”</p>
+</li>
+</ul>
+<p>To install poche, <a href="http://doc.wallabag.org">have a look to the documentation</a>.</p>
+                    <a class="btn btn-default btn-xs" href="https://www.wallabag.org/blog/2013/08/27/poche-1-0-beta-4">more ...</a>
+                </div>
+            </article>
+            <hr/>
+
+        <ul class="pagination">
+                <li class="prev"><a href="https://www.wallabag.org/tag/release2.html">&laquo;</a>
+                </li>
+                    <li class=""><a
+                            href="https://www.wallabag.org/tag/release.html">1</a></li>
+                    <li class=""><a
+                            href="https://www.wallabag.org/tag/release2.html">2</a></li>
+                    <li class="active"><a
+                            href="https://www.wallabag.org/tag/release3.html">3</a></li>
+                <li class="next disabled"><a href="#">&raquo;</a></li>
+        </ul>
+        </div>
+        <div class="col-sm-3" id="sidebar">
+            <aside>
+
+<section class="well well-sm">
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item"><h4><i class="fa fa-download fa-lg"></i><span class="icon-label">Downloads</span></h4>
+            <ul class="list-group" id="downloads">
+                <li class="list-group-item">
+                    <a href="https://www.wallabag.org/pages/download-wallabag.html">
+                        <i class="fa fa-file-code-o fa-lg"></i> wallabag 1.9.1 (2015/08/03)
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://play.google.com/store/apps/details?id=fr.gaulupeau.apps.InThePoche">
+                        <i class="fa fa-android fa-lg"></i> Android application
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://github.com/wallabag/wallabag-fxos">
+                        <i class="fa fa-firefox fa-lg"></i> Firefox OS application
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://itunes.apple.com/app/wallabag/id828331015?mt=8">
+                        <i class="fa fa-apple fa-lg"></i> iOS application
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="http://www.windowsphone.com/en-US/store/app/wallabag/d5226cf1-f422-4e00-996c-88e9c5233332">
+                        <i class="fa fa-windows fa-lg"></i> Windows application
+                    </a>
+                </li>
+            </ul>
+        </li>
+
+            <li class="list-group-item"><h4><i class="fa fa-pencil fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
+                <ul class="list-group" id="recentposts">
+                    <li class="list-group-item">
+                        <a href="https://www.wallabag.org/blog/2014/11/15/new-release-wallabag-1-8-1">
+                            New release, wallabag 1.8.1
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="https://www.wallabag.org/blog/2014/10/10/wallabag-1-8-is-there">
+                            wallabag 1.8 is there
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="https://www.wallabag.org/blog/2014/07/24/security-fix-wallabag-1-7-2">
+                            security fix with wallabag 1.7.2
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="https://www.wallabag.org/blog/2014/07/15/wallabag-1-7-1">
+                            wallabag 1.7.1
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="https://www.wallabag.org/blog/2014/05/29/1-7-epub-multi-users-available">
+                            1.7, with ePub and multi users, is available
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+        <li class="list-group-item"><h4><i class="fa fa-envelope fa-lg"></i><span class="icon-label">Contact us</span></h4>
+            <ul class="list-group" id="contactus">
+                <li class="list-group-item">
+                    <a href="mailto:hello@wallabag.org">hello@wallabag.org</a>
+                </li>
+                <li class="list-group-item">
+                    on <a href="https://gitter.im/wallabag/wallabag">Gitter</a>
+                </li>
+                <li class="list-group-item">
+                    on <a href="https://webchat.freenode.net/?channels=#wallabag">IRC</a>
+                </li>
+            </ul>
+        </li>
+
+        <li class="list-group-item"><h4><i class="fa fa-envelope fa-lg"></i><span class="icon-label">Follow us</span></h4>
+            <ul class="list-group" id="followus">
+                <li class="list-group-item">
+                    <i class="fa fa-twitter fa-lg"></i> <a href="https://twitter.com/wallabagapp">twitter</a>
+                </li>
+                <li class="list-group-item">
+                    <i class="fa fa-comment fa-lg"></i> <a href="https://framasphere.org/u/wallabag">diaspora*</a>
+                </li>
+                <li class="list-group-item">
+                    <i class="fa fa-facebook fa-lg"></i> <a href="https://facebook.com/wallabag">facebook</a>
+                </li>
+                <li class="list-group-item">
+                    <i class="fa fa-google-plus fa-lg"></i> <a href="https://plus.google.com/+WallabagOrg">google+</a>
+                </li>
+                <li class="list-group-item">
+                    <i class="fa fa-rss fa-lg"></i> <a href="https://www.wallabag.org/feeds/all.atom.xml">rss</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</section>            </aside>
+        </div>
+    </div>
+</div>
+<footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+          <div class="col-xs-10">Made by <a href="http://www.cdetc.fr">Nicolas Lœuillet</a>, Thomas Citharel, Jérémy Benoist and many <a href="https://github.com/wallabag/wallabag/graphs/contributors">great contributors</a>.
+             <p><small>This website is powered by <a href="http://docs.getpelican.com/" target="_blank">Pelican</a> and  <a href="https://github.com/DandyDev/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>. You can contribute to it on <a href="https://github.com/wallabag/wallabag.org">github.com/wallabag/wallabag.org</a>. <a href="https://www.flickr.com/photos/oneterry/16711663295/">Banner picture from oneterry</a>.</small></p>          </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
+      </div>
+   </div>
+</footer>
+<script src="https://www.wallabag.org/theme/js/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://www.wallabag.org/theme/js/bootstrap.min.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="https://www.wallabag.org/theme/js/respond.min.js"></script>
+
+    <script src="https://www.wallabag.org/theme/js/bodypadding.js"></script>
+
+</body>
+</html>
